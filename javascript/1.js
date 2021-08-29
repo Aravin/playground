@@ -1,9 +1,8 @@
 /**
  * Is Unique: Implement an algorithm to determine if a string has all unique characters,
- * what if you cannot use additional data structure
  */
 
-function uniqueCharacters(str) {
+function isUniqueCharacters(str) {
     
     // using set to store only unique chars
     let set = new Set();
@@ -13,19 +12,16 @@ function uniqueCharacters(str) {
         set.add(str[i]);
     }
 
-
-    return str.length === set.size ? 'Yes' : 'No'
+    return str.length === set.size ? true : false
 }
 
-
-console.log(uniqueCharacters('javascript'));
-console.log(uniqueCharacters('question'));
-
+console.log(isUniqueCharacters('javascript'));
+console.log(isUniqueCharacters('question'));
 
 /**
  * Sample Input 1: javascript
- * Sample Output 1: No
+ * Sample Output 1: false
  * 
  * Sample Input 2: question
- * Sample Output 2: Yes
+ * Sample Output 2: true
  */
