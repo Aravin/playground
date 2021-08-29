@@ -3,15 +3,6 @@
  * what if you cannot use additional data structure
  */
 
-/**
- * Sample Input 1: javascript
- * Sample Output 1: No
- * 
- * Sample Input 2: question
- * Sample Output 2: Yes
- */
-
-
 function uniqueCharacters(str) {
     
     // using set to store only unique chars
@@ -29,3 +20,12 @@ function uniqueCharacters(str) {
 
 console.log(uniqueCharacters('javascript'));
 console.log(uniqueCharacters('question'));
+
+
+/**
+ * Sample Input 1: javascript
+ * Sample Output 1: No
+ * 
+ * Sample Input 2: question
+ * Sample Output 2: Yes
+ */
